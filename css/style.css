@@ -1,0 +1,55 @@
+.logo{
+    display: block;
+    margin: auto;
+}
+body{
+    height: 100vh;
+    background-image:linear-gradient(rgb(207, 174, 174),rgb(174, 198, 207));
+}
+.cointainer{
+    max-width: 955px;
+    background-color: white;
+    margin: auto;
+    height: 60vh;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+}
+.message
+{
+    background-color: grey;
+    width: 48%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.left
+{
+    float: left;
+}
+.right
+{
+    float: right;
+}
+#send-cointainer
+{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#messageInp{
+    width: 72%;
+    border: 2px solid black;
+    border-radius:5px;
+    height: 15px;
+
+}
+.btn
+{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+}
